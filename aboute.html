@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ec0f1fdc35.js" crossorigin="anonymous"></script>
+    <title>yeonsu</title>
+    <style>
+        .main-bg{
+            background-color: white;
+            padding-top: 120px;
+            padding-bottom: 100px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+        #profile_image{
+            width: 300px;
+            height: 270px;
+            margin-bottom: 10px;
+        }
+
+        .container{
+            background-color: rgb(197, 197, 197);
+            color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .row{
+            font-size: 13px;
+            padding: 20px;
+        }
+
+        .container2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        .img{
+            width: 100%;
+        }
+
+        .footer{
+           background: linear-gradient(white, rgb(252, 246, 232));
+           color: gray;
+           padding-top:80px;
+           padding-bottom: 20px;
+           font-size: 10px;
+           color: darkgrey;
+       }
+        
+    </style>
+</head>
+<body>
+    <!-- main1: 사진과 이름-->
+    <div class="container-fluid text-center main-bg">
+        <p>임연수</p>
+        <img src = "IMG_7021.JPG " id = "profile_image">
+        <p>Contact</p>
+        <a><i class="fab fa-github-square fa-2x"></i></a>
+        <a><i class="fas fa-envelope-square fa-2x"></i></a>
+        <a><i class="fab fa-instagram-square fa-2x"></i></a>
+    </div>
+
+    <!-- sub1: 소개와 약력 -->
+    <div class = "container">
+        <div class = "row">
+            <div id= "introduce">
+                <p style="font-style: italic">About Me</p>
+                <li>이름: 임연수</li>
+                <li>학교: 한양대학교 ERICA</li>
+                <li>학과: 정보사회미디어학과/미디어테크놀로지전공</li>
+
+            </div>
+        </div>
+        <div class = "row">
+            <div id= "profile">
+                <li>2019년 한양대학교 ERICA 입학</li>
+                <li>2019년 정보사회미디어학과 제1대 학생회 미디어제작국 차장</li>
+                <li>2020년 정보사회미디어학과 학회 ICON 회장</li>
+                <li>2020년 정보사회미디어학과 제2대 학생회 홍보국장</li>
+                <li>2020년 한양대학교 ERICA 입학 서포터즈 1기</li>
+                <li>2021년 멋쟁이사차럼 9기</li>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- sub2: 이미지 -->
+    <div class="container2">
+        <div class="img">
+            <img src="나우.JPG" class="img-fluid">
+        </div>
+        <div class="img">
+            <img src="아이콘.JPG" class="img-fluid">
+        </div>
+        <div class="img">
+            <img src="입학한대.JPG" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class = "container-fluid text-center footer">
+        내가 지나치는 거리마다 낯선 기쁨과 전율은 가득 차리니.
+    </div>
+
+    
+</body>
+</html>
